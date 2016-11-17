@@ -1,0 +1,183 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Boudjeltia}{Reda}
+      {Computer Science, Operation Research}
+      
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Address}
+    Avenue Colégno, E209
+    33400, Talence, France
+    ~
+  \section{Tel \& Mail}
+    +33 698955062
+   \href{mailto:rboudjeltia@enseirb-matmeca.fr}			{\textbf{rboudjeltia@}\\enseirb-matmeca.fr}
+    ~
+  \section{Git \& Website}
+      \href{https://github.com/royceda}{github.com/royceda}
+    \href{http://rboudjeltia.vvv.enseirb-matmeca.fr}{rboudjeltia.vvv.enseirb-matmeca.fr}
+    ~
+  \section{Programming}
+    \textbf{Java}\includegraphics[scale=0.40]{img/5stars.png}  
+    \textbf{C/C++}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Python}\includegraphics[scale=0.4]{img/4stars.png}
+    \textbf{HTML/CSS}\includegraphics[scale=0.4]{img/4stars.png}
+    \textbf{SQL}\includegraphics[scale=0.4]{img/4stars.png}
+    \textbf{PHP}\includegraphics[scale=0.4]{img/4stars.png}
+     \textbf{Javascript}\includegraphics[scale=0.4]{img/4stars.png}
+    \textbf{Ruby}\includegraphics[scale=0.4]{img/3stars.png}
+    \textbf{Scilab}\includegraphics[scale=0.4]{img/3stars.png}
+    \textbf{R}\includegraphics[scale=0.4]{img/3stars.png}
+    \textbf{AngularJS}\includegraphics[scale=0.4]{img/3stars.png}  
+    \textbf{OpenCL}\includegraphics[scale=0.4]{img/2stars.png} 
+    \textbf{Swift/ iOS}\includegraphics[scale=0.40]{img/1stars.png}
+    ~
+  \section{Software}
+    \textbf{MS Office}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Eclipse}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Isight}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{GCC/gdb}\includegraphics[scale=0.40]{img/5stars.png}
+     \textbf{MS Project}\includegraphics[scale=0.40]{img/4stars.png}  
+	\textbf{CPLEX}\includegraphics[scale=0.4]{img/4stars.png}
+	\textbf{Maple}\includegraphics[scale=0.4]{img/3stars.png}
+    \textbf{InDesign}\includegraphics[scale=0.4]{img/4stars.png}
+   %% \textbf{VisualStudio}\includegraphics[scale=0.8]{img/2starsb.png}
+    %\textbf{MongoDB}\includegraphics[scale=0.4]{img/2stars.png}
+    \textbf{Docker}\includegraphics[scale=0.4]{img/2stars.png} 
+    \textbf{Matlab}\includegraphics[scale=0.4]{img/2stars.png}
+    \textbf{SAP}\includegraphics[scale=0.40]{img/1stars.png} 
+    ~
+  \section{Personal Skills}
+    \textbf{Team}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{UML}\includegraphics[scale=0.4]{img/5stars.png}
+    \textbf{Agile}\includegraphics[scale=0.4]{img/4stars.png}
+     \textbf{SCRUM}\includegraphics[scale=0.4]{img/4stars.png}
+    \textbf{Driving license}
+    ~
+    \section{Languages}
+    \textbf{English}\includegraphics[scale=0.4]{img/4stars.png}
+    \textbf{Japanese}\includegraphics[scale=0.4]{img/2stars.png}
+    \textbf{Spanish}\includegraphics[scale=0.4]{img/1stars.png}
+  ~ 
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {03/16 - 09/16}
+    {Internship - Developer and Mathematician}
+    {Air France - KLM, Toulouse, France}
+    {Design and development of \texttt{Symfony} bundles for a scheduler for data center (php, python, JavaScript, Data Analysis).\\ 
+    Design web application to schedule task for servers reboot, and send CM with web-services to HP-SM9 (Java EE, SOA, Constraint programming)\\}
+
+  \entry
+    {01/16 - 3/16}
+    {Student - Mathematician and Developer}
+    {Abracadacook, Bordeaux, France}
+    {Design and implement mathematical model to give the best users' meals by knowing his diets (python, SQL, Integer  programming)\\}
+
+  \entry
+    {06/15 - 10/15}
+    {Internship - Developer}
+    {Airbus Defence and Space, Les Mureaux, France}
+    {Design and development of algorithms, solutions to an \texttt{SIMULIA Isight} component  with web services to get data from a multidisciplinary database.(Java) \\
+    Design and development of Web Application to use \texttt{Isight} from a webrowser. (Java/ J2EE/JSF)\\}
+
+    \entry
+    {10/14 - 02/16}
+    {Developer}
+    {ENSEIRB-MATMECA, Bordeaux, France}
+    { Design and development of e-commerce website.(HTML/CSS, PHP, SQL)\\
+    Development of C compiler. (C, ASSEMBLOR, MIPS, Bison, flex)\\
+    Development of web application of To Do list. Management of SQL databases. (J2EE, Java, XML, XSL, AJAX)\\
+    Development of thread library. (C)\\
+   Design and development of Android Applications for basketball statistician (Android)\\
+    Design and development of online aquarium with web client. (Java \& C)\\
+    Simulation of atom behavior.(C, OpenMP, OpenCL)\\
+    Modeling and implementation of Acceptation problem and RCPSP(C++)
+    }
+ 
+
+    \entry
+    {7/14 - 8/14}
+    {Internship - Developer}
+    {Envie EE, Le Havre, France}
+    {Design and development of schedule application for trucks. (C and GTK)\\}
+    
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2013 - now}
+    {Student in Computer Engineering,}
+    {ENSEIRB-MATMECA(Bordeaux INP), France}
+    {BS in Engineering (Graduated).\\
+    Main subjects: Algorithm, Theory of Graph, Cryptology, Programming (Imperative, Functional, System and Oriented Object), Databases.}
+    
+    \entry
+     {2016 - now}
+    {E-Management (Exchange),}
+    {Kedge Business School, France}
+    {Main subjects: Business Plan, Management of projects (Transversal and Innovative), Supply Chain, Human resource.\\ }
+    
+  \entry
+    {2015 - 2016}
+    {MS in Operation Research (Graduated)}
+    {University of Bordeaux I, France}
+    {Main subjects: Constraint Programming, Linear and Integer Programming, Scheduling, Stochastic optimization,  Mathematical finance, Data Analysis.\\}
+  \entry
+    {2010 - 2013}
+    {CPGE}
+    {Lycée Marcel Sembat, Sotteville-les-Rouen, France}
+    {Scientific Secondary School.\\
+    Main subjects: Mathematics, Physics, Mechanic, Electricity.}
+ 
+\end{entrylist}
+
+
+%\begin{flushleft}
+%\emph{January 14th, 2014}
+%\end{flushleft}
+%\begin{flushright}
+%\emph{Boudjeltia Reda}
+%\end{flushright}
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
